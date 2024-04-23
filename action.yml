@@ -5,6 +5,7 @@ inputs:
   name:
     description: 'this is my name'
     required: true
+
 runs:
-  using: "node20"
-  main: "lib/index.js"
+  using: "node12"  # Adjust this based on your Node.js version requirement
+  main: "lib/index.js"  # Adjust the path accordingly
