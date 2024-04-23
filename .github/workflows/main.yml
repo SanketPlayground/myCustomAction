@@ -1,0 +1,13 @@
+name: hello  # Name of the workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run your action
+        uses: SanketPlayground/myCustomAction@main
