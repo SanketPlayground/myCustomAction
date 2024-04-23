@@ -1,11 +1,6 @@
 name: "Label new pull requests"
 description: "Add a label when a new PR is opened"
 
-inputs:
-  name:
-    description: 'this is my name'
-    required: true
-
 runs:
   using: "node12"  # Adjust this based on your Node.js version requirement
   main: "lib/index.js"  # Adjust the path accordingly
