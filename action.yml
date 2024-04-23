@@ -6,5 +6,5 @@ inputs:
     description: 'this is my name'
     required: true
 runs:
-  using: "node.js"
+  using: "node20"
   main: "lib/index.js"
