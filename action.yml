@@ -3,4 +3,4 @@ description: "Add a label when a new PR is opened"
 
 runs:
   using: "node12"  # Adjust this based on your Node.js version requirement
-  main: "dist/index.js"  # Adjust the path accordingly
+  main: "lib/index.js"  # Adjust the path accordingly
