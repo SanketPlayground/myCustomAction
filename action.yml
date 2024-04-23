@@ -1,0 +1,13 @@
+name: "Label new pull requests"
+description: "Add a label when a new PR is opened"
+
+inputs:
+  token:
+    description: 'this is a token'
+    required: true
+  label:
+    description: 'this is a label'
+    required: true
+runs:
+  using: "node.js"
+  main: "dist/index.js"
