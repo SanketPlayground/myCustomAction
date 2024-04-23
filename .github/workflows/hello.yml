@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run your action
-        uses: SanketPlayground/myCustomAction@main 
+        uses: ./action.yml
         # Assuming your action is in the root directory of your repository
         with:
           name: "Sanket"
