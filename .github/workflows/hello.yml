@@ -11,6 +11,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run your action
-        uses: ./  # Assuming your action is in the root directory of your repository
+        uses: ../  # Assuming your action is in the root directory of your repository
         with:
           name: "Sanket"
