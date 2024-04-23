@@ -1,5 +1,4 @@
 name: hello  # Name of the workflow
-description: "Add a label when a new PR is opened"
 
 on:
   workflow_dispatch:
@@ -10,3 +9,5 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      - name: Run your action
+        uses: SanketPlayground/myCustomAction@main
