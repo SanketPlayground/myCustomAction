@@ -10,11 +10,3 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
-      - name: Run your action
-        uses: ./
-        with:
-          name: "Sanket desai"
-    runs:
-      using: node12
-      main: lib/index.js
