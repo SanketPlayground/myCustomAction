@@ -13,4 +13,4 @@ jobs:
       - name: Run your action
         uses: ./  # Assuming your action is in the root directory of your repository
         with:
-          name: 'Sanket desai'
+          name: "Sanket"
